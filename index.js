@@ -1,3 +1,16 @@
+//FUCTION
+function saludar(saludar) {
+    console.log(saludar);
+}
+
+saludar("Bienvenidos a nuestra comunidad. Explora y elige tu estilo.");
+saludar("¡Eliga entre los articulos deseados para fijar precios!");
+
+//-----------------------------------------------------------------------------------
+
+//VARIABLES & CONSTANTES-------------------------------------------------------------
+
+
 const remera = 23500;
 const buzo = 45000;
 const pantalon = 75000;
@@ -38,3 +51,4 @@ while (true) {
 }
 
 console.log(`El total de tu compra es: ${total.toLocaleString('es-ES')} pesos.`);
+
